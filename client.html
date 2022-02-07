@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="utf-8">
+      <title>Quiz</title>
+      <link type="text/css" href="style.css" rel="stylesheet">
+      <script src="script.js"></script>
+      <script src="md5.js"></script> 
+   </head>
+
+   <body>
+
+    <div class="wrapper">
+      <header>
+              <h1>QUIZ</h1>
+      </header>
+      <nav>
+        <ol>
+          <li id="regB" onclick="_reg_form()"><a>Rejestracja</a></li>
+          <li id="logB" onclick="_log_form()"><a>Logowanie</a></li>
+          <li id="logOutB" onclick="_log_out()"><a>Wylogowanie</a></li>
+          <li id="insOffB" onclick="_ins_form(false)"><a>Zapis offline</a></li>
+          <li id="insOnB" onclick="_ins_form(true)"><a>Zapis online</a></li>
+          <li id="selOffB" onclick="_listOffline()"><a>Przeglad danych offline</a></li>
+          <li id="selOnB" onclick="_list()"><a>Przeglad danych online</a></li>
+          <li id="analizeB" onclick="_analize()"><a>Analiza Danych</a></li>
+          <li id="doc" onclick="_doc()"><a>Dokumentacja</a></li>
+        </ol>
+      </nav>
+      <div id="data"></div>
+      <div id="result"></div>
+      <div id="push"></div>
+      <footer>
+        Wszelkie prawa zastrzezone © Techniki Internetowe 2021 Tomasz Szkaradek!
+      </footer>
+    </div>
+    
+  </body>
+  </html>
